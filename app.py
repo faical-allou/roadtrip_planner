@@ -1,4 +1,5 @@
 ﻿from flask import Flask, abort, flash, redirect, render_template, request, url_for, send_from_directory
+import os
 
 app = Flask(__name__, static_folder='static')
 
